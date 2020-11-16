@@ -9,3 +9,5 @@ def loop_message_five_times(string)
 end
 
 puts loop_message_five_times("Hello World.\n")
+
+puts "hi"
