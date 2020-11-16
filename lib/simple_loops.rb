@@ -28,7 +28,7 @@ end
 
 def return_string_array(array)
   count = 0 
-  new_array[]
+  new_array = []
   while count < array.length
     new_string = array[count].to_s
     new_array << new_string
