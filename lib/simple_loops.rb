@@ -31,11 +31,8 @@ def return_string_array(array)
   new_array = []
   while count < array.length
     new_string = array[count].to_s
-    
-    
     new_array << new_string
     count +=1
-    
   end
   return new_array
 end
