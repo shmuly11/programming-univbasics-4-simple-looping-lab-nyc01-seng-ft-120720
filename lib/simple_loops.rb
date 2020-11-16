@@ -33,7 +33,7 @@ def return_string_array(array)
     new_string = array[count].to_s
     
     count +=1
-    new_array << new_string
+    return new_array << new_string
   end
 end
   
